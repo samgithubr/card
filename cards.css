@@ -1,0 +1,63 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgb(66, 109, 250) ,white,rgb(96, 96, 255));
+    height: 100vh;
+}
+main
+{   
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+    
+}
+#container
+{
+    display: flex;
+    width: 82%;
+    justify-content:space-between;
+    
+   
+    
+}
+#container > div > img
+{
+      height: 150px;
+      width: 99.5%;
+      border-radius: 8px; 
+      transition:2s; 
+      border: 1px solid black;  
+}
+#container > div
+{   
+    width:22%;
+    background-image: linear-gradient(rgb(48, 95, 250) ,white);
+    border-radius:8px;
+    border: 2px solid black;
+    
+}
+#container > div > ul
+{   
+    padding-left: 10%;
+    padding-right:10%;
+    font-size: 16px;
+    text-align: center;
+    line-height:25px;
+    list-style: none;
+}
+
+
+img:hover
+{ 
+    transform: scale(1.2);
+}
+
+#container > div > ul> li:hover
+{
+     background-color: white;
+     border-radius:10px;
+     border: 1px solid black;
+}
